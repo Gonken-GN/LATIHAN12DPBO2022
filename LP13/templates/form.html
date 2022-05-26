@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+  <title>To Do List</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">WIW</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <br />
+  <br />
+
+  <div class="container" >
+  <form action="" method="post" enctype="multipart/form-data">
+      
+      <h1 style="text-align: center; margin: 10px; font-size: 35px;">Data Pasien</h1>
+      <input type="hidden" name="key" value="">
+      <div class="form-group">
+          <label for="exampleInputEmail1">NIK</label>
+          <input type="number" class="form-control" name="nik" placeholder="1231231231" value="DATA_NIK"required>
+      </div>
+      <div class="form-group">
+          <label for="exampleInputEmail1">Nama</label>
+          <input type="text" class="form-control" name="nama" placeholder="Asep Tata" value="DATA_NAMA"required>
+      </div>
+      <div class="form-group">
+          <label for="exampleInputEmail1">Tempat</label>
+          <input type="text" class="form-control" name="tempat" placeholder="Cigadung Greend Land" value="DATA_TEMPAT"required>
+      </div>
+      <div class="form-group">
+          <label for="exampleInputEmail1">Tanggal Lahir</label>
+          <input type="date" class="form-control" name="tl" value="DATA_TL"required>
+      </div>
+      <div class="form-group">
+          <label>Gender</label>
+          <div id="radiobutton">
+              <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="Laki-laki" DATA_GENDERM required>
+              <label class="form-check-label" for="inlineRadio1">Laki-laki</label>
+              </div>
+              <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="Perempuan" DATA_GENDERF required>
+              <label class="form-check-label" for="inlineRadio2">Perempuan</label>
+              </div>
+          </div>
+      </div>
+      
+      <div class="form-group">
+          <label for="exampleInputEmail1">Email</label>
+          <input type="email" class="form-control" name="email" placeholder="Cigadung Greend Land" value="DATA_EMAIL">
+      </div>
+      <div class="form-group">
+          <label for="exampleInputEmail1">No Telepon</label>
+          <input type="number" class="form-control" name="telp" placeholder="Cigadung Greend Land" value="DATA_NOTELP">
+      </div>
+      <button type="Submit" class="btn btn-primary" name="submit" id="submit"style="margin-top: 10px;">Submit</button>
+      <a href="index.php"><button type="button" class="btn btn-danger" name="cancel" style="margin-top: 10px;">Cancel</button></a>
+  </form>
+    
+</div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
+
+      
